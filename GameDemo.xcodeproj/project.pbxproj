@@ -15,6 +15,9 @@
 		A914F03620B6D4B700D83391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A914F03520B6D4B700D83391 /* main.m */; };
 		A914F04020B6D4B700D83391 /* GameDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A914F03F20B6D4B700D83391 /* GameDemoTests.m */; };
 		A914F04B20B6D4B700D83391 /* GameDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A914F04A20B6D4B700D83391 /* GameDemoUITests.m */; };
+		A914F05A20B6DC8900D83391 /* FruitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A914F05920B6DC8900D83391 /* FruitView.m */; };
+		A914F06120B8137D00D83391 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A914F05F20B8137D00D83391 /* DemoViewController.m */; };
+		A914F06220B8137D00D83391 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A914F06020B8137D00D83391 /* DemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		A914F04620B6D4B700D83391 /* GameDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A914F04A20B6D4B700D83391 /* GameDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameDemoUITests.m; sourceTree = "<group>"; };
 		A914F04C20B6D4B700D83391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A914F05820B6DC8900D83391 /* FruitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitView.h; sourceTree = "<group>"; };
+		A914F05920B6DC8900D83391 /* FruitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitView.m; sourceTree = "<group>"; };
+		A914F05E20B8137D00D83391 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = Assets.xcassets/DemoViewController.h; sourceTree = "<group>"; };
+		A914F05F20B8137D00D83391 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = Assets.xcassets/DemoViewController.m; sourceTree = "<group>"; };
+		A914F06020B8137D00D83391 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DemoViewController.xib; path = Assets.xcassets/DemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				A914F02720B6D4B500D83391 /* AppDelegate.m */,
 				A914F02920B6D4B600D83391 /* ViewController.h */,
 				A914F02A20B6D4B600D83391 /* ViewController.m */,
+				A914F05E20B8137D00D83391 /* DemoViewController.h */,
+				A914F05F20B8137D00D83391 /* DemoViewController.m */,
+				A914F06020B8137D00D83391 /* DemoViewController.xib */,
+				A914F05820B6DC8900D83391 /* FruitView.h */,
+				A914F05920B6DC8900D83391 /* FruitView.m */,
 				A914F02C20B6D4B600D83391 /* Main.storyboard */,
 				A914F02F20B6D4B700D83391 /* Assets.xcassets */,
 				A914F03120B6D4B700D83391 /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 				A914F03320B6D4B700D83391 /* LaunchScreen.storyboard in Resources */,
 				A914F03020B6D4B700D83391 /* Assets.xcassets in Resources */,
 				A914F02E20B6D4B600D83391 /* Main.storyboard in Resources */,
+				A914F06220B8137D00D83391 /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +279,8 @@
 				A914F02B20B6D4B600D83391 /* ViewController.m in Sources */,
 				A914F03620B6D4B700D83391 /* main.m in Sources */,
 				A914F02820B6D4B500D83391 /* AppDelegate.m in Sources */,
+				A914F06120B8137D00D83391 /* DemoViewController.m in Sources */,
+				A914F05A20B6DC8900D83391 /* FruitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
